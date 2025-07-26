@@ -1,0 +1,24 @@
+Labels        :       value
+addx        :       65
+addy        :       60
+loop_out        :       18
+sort        :       8
+loop_in        :       26
+array        :       76
+done        :       73
+swap        :       50
+
+Used labels
+
+addx
+addy
+array
+done
+loop_in
+loop_out
+sort
+swap
+
+Warnings
+
+Errors

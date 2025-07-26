@@ -1,0 +1,15 @@
+Labels        :       value
+var1        :       7
+next        :       5
+loop        :       3
+label        :       0
+
+Used labels
+loop
+next
+var1
+
+Warnings
+Line 0: Unused label label
+
+Errors

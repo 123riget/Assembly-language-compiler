@@ -1,0 +1,13 @@
+Labels        :       value
+label1        :       0
+label2        :       1
+label3        :       3
+
+Used labels
+label3
+
+Warnings
+Line 0: Unused label label1
+Line 0: Unused label label2
+
+Errors
