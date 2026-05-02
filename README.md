@@ -73,7 +73,5 @@ gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototy
 
 ## Author 
 Rohit Roy 
-
-B.Tech in Artificial Intelligence & Data Science, 2024 - 2nd Year Student
-
+B.Tech in Artificial Intelligence & Data Science, 2024
 Indian Institute of Technology (IIT) Patna
