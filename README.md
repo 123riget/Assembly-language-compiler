@@ -58,6 +58,7 @@ gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototy
 
 # Build the emulator
 gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -o emulator Emulator2.c
+
 ```
 
 ##Testing & Execution
