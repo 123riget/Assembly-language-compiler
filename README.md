@@ -31,6 +31,8 @@ The assembler features a robust diagnostic engine capable of catching syntax and
 * Missing or unexpected operands (e.g., `add 5` triggers an error as `add` takes no operands).
 * Unused labels (flagged as compilation warnings).
 
+![The initial compilation](pic1.jpg)
+
 ## The Emulator (`emulator.exe`)
 
 The emulator loads the binary `.o` file into virtual memory and executes the instruction sequentially. It fully supports memory reads/writes ('ldnl', 'stnl'), stack adjustments (`adj`), arithmetic and bitwise shifts.
@@ -40,6 +42,7 @@ By passing the `-trace` flag, the emulator outputs a line-by-line snapshot of th
 
 **Example Trace Output:** 
 
+![The trace for the code](pic2.jpg)
 ## Algorithmic Implementation: Bubble Sort 
 
 The `bubblesort.asm` file demonstrates a complete algorithmic implementation mapped to the SIMPLE instruction set.
