@@ -60,6 +60,18 @@ gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototy
 gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -o emulator Emulator2.c
 
 ```
+## Testing & Execution 
+### Pipeline Execution: 
 
-##Testing & Execution
+```bash
+# 1. Assemble the code (generates bubblesort.o, bubblesort.lst, bubblesort.log)
+./assembler bubblesort.asm
 
+# 2. Emulate the binary with live CPU tracing
+./emulator -trace bubblesort.o
+```
+
+## Author 
+Rohit Roy 
+B.Tech in Artificial Intelligence & Data Science, 2024 - 2nd Year 
+Indian Institute of Technology (IIT) Patna
