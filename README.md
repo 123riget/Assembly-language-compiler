@@ -3,8 +3,13 @@
 [![Standard](https://img.shields.io/badge/Standard-ISO%20C89-blue.svg)](https://en.wikipedia.org/wiki/ANSI_C)
 [![Course](https://img.shields.io/badge/Course-CS2102-orange.svg)]()
 [![Architecture](https://img.shields.io/badge/Architecture-32--bit-success.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A fully compilant, two-pass assembler and instruction set emulator for the extended SIMPLE architecture, written in strict ISO C89. This project processes custom assembly language, resolves forward references, generates binary machine code, and provides a virtual execution environment complete with state tracing. 
+
+## Download Pre-compiled Binaries 
+
+If you are on Windows and prefer not to build from source , you can download the ready-to-use `assembler.exe` and `emulator.exe` directly from the **[Releases Page](https://github.com/riget123/Assembly-language-compiler/releases/latest)
 
 ## System Architecture 
 
@@ -73,6 +78,8 @@ gcc -std=c89 -pedantic -W -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototy
 # 2. Emulate the binary with live CPU tracing
 ./emulator -trace bubblesort.o
 ```
+## License 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author 
 Rohit Roy 
